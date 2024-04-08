@@ -25,6 +25,8 @@ h1 {
     display: flex;
     overflow: hidden;
     background-color: black;
+    position: sticky;
+    top: 0px;
 }
 
 .navbar .info {
