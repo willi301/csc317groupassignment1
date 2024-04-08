@@ -18,6 +18,9 @@ h1 {
     background-color: darkgray;
 }
 
+
+/*styling for navbar*/
+
 .navbar {
     display: flex;
     overflow: hidden;
@@ -36,6 +39,8 @@ h1 {
 
 }
 
+/*styling for content block*/
+
 .infoBlock {
     display: flex;
     align-items: center;
@@ -53,5 +58,49 @@ h1 {
     height: 300px;
     width: 400px;
 }
+
+#left {
+    flex-direction: row-reverse;
+}
+
+
+/*Styling for footer*/
+footer {
+    display: flex;
+    background-color: gray;
+    color: white;
+    overflow: hidden;
+}
+
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer .contactUs {
+    background-color: rgb(159, 159, 159);
+    height: 100%;
+    flex-direction: column;
+}
+
+footer .contactUs p {
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .socials p {
+
+
+}
+
+
 
 /*This is the class to contain all the fun facts*/
