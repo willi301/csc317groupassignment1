@@ -36,4 +36,22 @@ h1 {
 
 }
 
+.infoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.infoBlock .fact {
+    width: 600px;
+}
+
+.infoBlock img {
+    height: 300px;
+    width: 400px;
+}
+
 /*This is the class to contain all the fun facts*/
