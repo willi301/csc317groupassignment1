@@ -1,10 +1,22 @@
 .logo-head {
     height: 200px;
     width: 200px;
+    display:block;
+    background-color: white;
+    border-right-color: blue;
+}
+
+h1 {
+    color: black;
+    font-size: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
 }
 
 
 /*This is the class to contain all the fun facts*/
-.fact {
-
-}
