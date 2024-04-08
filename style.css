@@ -18,5 +18,22 @@ h1 {
     background-color: darkgray;
 }
 
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar .info {
+    padding: 14px 16px;
+    color: white;
+
+}
+
+.navbar .info:hover {
+    background-color: yellow;
+    color: black;
+
+}
 
 /*This is the class to contain all the fun facts*/
