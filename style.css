@@ -1,24 +1,33 @@
 .logo-head {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 120px;
     display:block;
     background-color: white;
-    border-right-color: blue;
+    padding: 20px;
 }
 
+  
+
 h1 {
-    color: black;
-    font-size: 100px;
+    color: gray;
+    font-size: 60px;
+    font-family: "Noto Serif KR";
+    padding-left: 50px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: darkgray;
+    background-color: white;
 }
 
-
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Noto Serif KR";
+    color: gray;
+}
 /*styling for navbar*/
 
 .navbar {
@@ -27,6 +36,7 @@ h1 {
     background-color: black;
     position: sticky;
     top: 0px;
+    border-color:white;
 }
 
 .navbar .info {
@@ -49,14 +59,21 @@ h1 {
     justify-content: space-around;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 30px;
+    background-color: brown;
 
 }
 
 .infoBlock .fact {
     width: 600px;
+    color:white;
+    font-family: "Noto Serif KR";
+    font-size:30px;
 }
 
 .infoBlock img {
+    padding:20px;
+    margin:20px;
     height: 300px;
     width: 400px;
 }
@@ -99,10 +116,12 @@ footer .socials {
 }
 
 footer .socials p {
-
-
+font-family: "Noto Serif KR";
 }
 
+footer .socials p:hover {
+    text-decoration: underline;
 
+}
 
 /*This is the class to contain all the fun facts*/
